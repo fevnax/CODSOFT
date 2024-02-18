@@ -1,11 +1,17 @@
+html {
+  scroll-behavior: smooth;
+  color: #ffffff;
+}
+
 body {
+    background-color: #222222;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background-color: #0056b3;
+    background-color: #333333;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -35,7 +41,7 @@ body {
   }
   
   footer {
-    background-color: #0056b3;
+    background-color: #333333;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -80,11 +86,11 @@ body {
   }
 
   a {
-    color: #0056b3;
-    /* text-decoration: none; */
+    color: #17a2b8;
   }
 
   #down {
     width: 35px;
     height: 35px;
+    filter: invert()
   }
