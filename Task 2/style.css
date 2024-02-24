@@ -16,6 +16,12 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  .cont {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+  }
   
   nav {
     background-color: #f4f4f4;
@@ -35,6 +41,7 @@ body {
   }
   
   section {
+    width: 100%;
     padding: 20px;
     margin: 20px;
     border: 1px solid #ccc;
@@ -50,7 +57,7 @@ body {
   .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 45px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -61,7 +68,7 @@ body {
   }
   
   .fa-linkedin {
-    background: #007bb5;
+    background: #0a66c2;
     color: white;
   }
   
@@ -81,8 +88,8 @@ body {
   }
 
   .proimg {
-    height: 250px;
-    width: 550px;
+    height: 150px;
+    width: 300px;
   }
 
   a {
@@ -90,7 +97,27 @@ body {
   }
 
   #down {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     filter: invert()
+  }
+
+  .arrow-up {
+    width: 22px;
+    height: 22px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    text-align: center;
+    line-height: 1.4;
+    padding: 10px;
+    border-radius: 0;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .arrow-up:hover {
+    background-color: rgba(0,0,0,.7);
   }

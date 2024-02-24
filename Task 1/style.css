@@ -1,3 +1,7 @@
+html {
+  display: flex;
+}
+
 body {
     margin: 0 auto;
     font-family: Helvetica;
@@ -114,7 +118,7 @@ body {
   footer {
     text-align: center;
     padding: 3px;
-    background-color: #625A71;
+    background-color: #333333;
   }
 
   footer p {
